@@ -1,0 +1,6 @@
+Windows runtime includes Python, Qt / PySide6, requests, python-dotenv, certifi, urllib3, idna, charset-normalizer and Microsoft Visual C++ runtime libraries.
+Python: https://docs.python.org/3/license.html
+Qt: https://doc.qt.io/qt-6/lgpl.html
+PySide6 source: https://code.qt.io/pyside/pyside-setup/
+Qt source: https://code.qt.io/qt/
+PyInstaller: https://github.com/pyinstaller/pyinstaller (bootloader exception).

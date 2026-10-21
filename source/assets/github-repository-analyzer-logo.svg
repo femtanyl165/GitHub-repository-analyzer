@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub Repository Analyzer logo</title>
+  <desc id="desc">A blue repository folder with a white Git branch and a blue-to-violet analytics graph ending in a check mark.</desc>
+
+  <defs>
+    <linearGradient id="folder" x1="160" y1="120" x2="860" y2="850" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#315f94"/>
+      <stop offset="0.5" stop-color="#234d7c"/>
+      <stop offset="1" stop-color="#183b65"/>
+    </linearGradient>
+    <linearGradient id="graph" x1="220" y1="790" x2="790" y2="355" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#247bff"/>
+      <stop offset="0.48" stop-color="#5b5ce2"/>
+      <stop offset="1" stop-color="#9b4dff"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#07182f" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <!-- Transparent canvas; the folder is the only background shape. -->
+  <path
+    d="M128 218c0-66 54-120 120-120h208c24 0 47 10 64 27l74 74c15 15 35 23 56 23h214c66 0 120 54 120 120v490c0 66-54 120-120 120H248c-66 0-120-54-120-120V218Z"
+    fill="url(#folder)"
+    filter="url(#soft-shadow)"
+  />
+
+  <!-- Repository branch -->
+  <g fill="none" stroke="#fff" stroke-width="38" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M310 282v272"/>
+    <path d="M310 407h138"/>
+  </g>
+  <g fill="url(#folder)" stroke="#fff" stroke-width="36">
+    <circle cx="310" cy="257" r="55"/>
+    <circle cx="310" cy="579" r="55"/>
+    <circle cx="473" cy="407" r="55"/>
+  </g>
+
+  <!-- Repository health graph -->
+  <path
+    d="M245 790 420 665 525 726 610 665 778 475"
+    fill="none"
+    stroke="url(#graph)"
+    stroke-width="58"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <g stroke="#fff" stroke-width="0">
+    <circle cx="245" cy="790" r="48" fill="#247bff"/>
+    <circle cx="420" cy="665" r="48" fill="#5365ea"/>
+    <circle cx="610" cy="665" r="48" fill="#7c55ed"/>
+    <circle cx="245" cy="790" r="20" fill="#fff"/>
+    <circle cx="420" cy="665" r="20" fill="#fff"/>
+    <circle cx="610" cy="665" r="20" fill="#fff"/>
+  </g>
+
+  <!-- Health check endpoint -->
+  <circle cx="778" cy="475" r="88" fill="#9b4dff"/>
+  <path d="m738 478 27 28 55-61" fill="none" stroke="#fff" stroke-width="31" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Success rays -->
+  <g fill="none" stroke="#9b4dff" stroke-width="25" stroke-linecap="round">
+    <path d="M778 349v-42"/>
+    <path d="m723 365-27-33"/>
+    <path d="m833 365 27-33"/>
+  </g>
+</svg>

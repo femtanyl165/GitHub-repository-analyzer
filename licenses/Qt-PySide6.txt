@@ -1,0 +1,5 @@
+Qt и PySide6 6.9.2: LGPLv3 / GPLv3 / коммерческая лицензия.
+https://doc.qt.io/qt-6/lgpl.html
+https://doc.qt.io/qtforpython-6/licenses.html
+Qt source: https://code.qt.io/qt/
+PySide6 source: https://code.qt.io/pyside/pyside-setup/
